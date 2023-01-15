@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px) {
+    #nav-container > ul > li {
+        margin: 5px;
+    }
+
+    #nav-container > ul > li > a {
+        font-size: 16px;
+    }
+
+    #home-about-container .about-me {
+        width: 90%
+    }
+    #challenge-container .challenge-desc {
+        width: 90%;
+    }
+  }
