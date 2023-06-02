@@ -121,7 +121,8 @@ section h1 {
 
 #games-container {
     padding: 40px 0px;
-    background-color: #354259;
+    background: rgb(53,66,89);
+    background: linear-gradient(0deg, rgba(53,66,89,1) 0%, rgba(114,48,149,1) 100%);
     color: #fff;
     text-align: center;
 }
