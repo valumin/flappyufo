@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
 
+body {
+    background-color: #f3eef7;
+}
+
+
 nav {
-    margin: 30px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
 }
 
 #nav-logo > img {
@@ -10,10 +15,10 @@ nav {
     max-width: 180px;
 }
 
+
 #nav-container > ul {
-    margin: 20px 0px 0px 0px;
+    margin: 5px 0px 0px 30px;
     padding: 0px;
-    text-align: center;
 }
 
 #nav-container > ul > li {
@@ -38,14 +43,15 @@ nav {
 #nav-container > ul > li > a {
     text-decoration: none;
     font-family: 'Baloo 2', 'sans-serif';
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
-    color: #02DBB5;
+    color: #2c2c2c;
 }
 
 section {
-    font-family: 'Roboto Mono', monospace;
-    color: #354259;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'BALOO 2';
 }
 
 section a {
@@ -71,13 +77,20 @@ section h1 {
 
 #home-about-container .about-me {
     position: relative;
-    padding: 20px;
     display: block;
-    margin: auto;
-    width: 50%;
 }
 
-#home-about-container .about-me::before {
+.custom-card {
+    position: relative;
+    padding: 0px 40px;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    min-height: 120px !important;
+    display: block !important;
+}
+
+.custom-card::before {
     content: '';
     position: absolute;
     top: 0px;
@@ -87,6 +100,7 @@ section h1 {
     background-color: #02DBB5;
     border-radius: 20px;
 }
+
 
 #challenge-container .challenge-desc {
     position: relative;
@@ -141,3 +155,28 @@ section h1 {
     font-size: 20px;
 }
 
+.card-title {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.card-icon {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 80px;
+    opacity: 0.1;
+    transition: opacity 0.3s;
+}
+
+.card-icon:hover {
+    opacity: 0.2;
+}
+
+.card-showmore {
+    text-align: center;
+    font-size: 17px;
+    color: #8d8d8d;
+}
