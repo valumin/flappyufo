@@ -129,6 +129,8 @@ section h1 {
 
 #games-container h4 {
     margin: 20px 0px 40px 0px;
+    font-size: 3.5rem;
+    text-align: left;
 }
 
 #games-container .game-description {
@@ -144,7 +146,6 @@ section h1 {
 
 #games-container .game-playlink {
     display: block;
-    margin: auto;
     width: 256px;
     padding: 20px;
     border-radius: 5px;
